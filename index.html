@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dato Giovanni | IT Student & CCNA Candidate</title>
+<meta name="description" content="Portfolio of Dato Giovanni, B.Sc. Information Technology student in Accra, Ghana, studying for the Cisco CCNA (in progress).">
+<meta name="theme-color" content="#0B1426">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230B1426'/%3E%3Cpath d='M16 7v9M16 16l-8 9M16 16l8 9' stroke='%2322D3EE' stroke-width='2.5' fill='none'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="Dato Giovanni, back to top">Dato Giovanni</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#learning">Certification</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="badge"><span class="dot" aria-hidden="true"></span>CCNA in progress</p>
+        <h1>Dato Giovanni</h1>
+        <p class="headline">Information Technology student building a foundation in networking, Python and network security.</p>
+        <p class="intro">I study B.Sc. Information Technology at Academic City University in Accra and I'm preparing for the Cisco CCNA. I have led a student team on an AI platform and written Python applications, and I'm planning hands-on network labs in Cisco Packet Tracer.</p>
+        <div class="btns">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn" href="assets/CV_Dato_Giovanni.pdf" download>Download CV</a>
+          <a class="btn" href="#contact">Contact Me</a>
+        </div>
+      </div>
+
+      <figure class="topology">
+        <svg viewBox="0 0 400 290" role="img" aria-labelledby="topoTitle">
+          <title id="topoTitle">Diagram of a small network: a router, a core switch, two access switches with VLAN 10 and VLAN 20, and four hosts.</title>
+          <g class="links">
+            <path d="M200 48V108"/><path d="M200 128L100 184"/><path d="M200 128L300 184"/>
+            <path d="M100 200L56 252"/><path d="M100 200L144 252"/><path d="M300 200L256 252"/><path d="M300 200L344 252"/>
+          </g>
+          <circle class="n" cx="200" cy="34" r="16"/>
+          <rect class="n core" x="176" y="108" width="48" height="26" rx="5"/>
+          <rect class="n" x="78" y="184" width="44" height="22" rx="5"/>
+          <rect class="n" x="278" y="184" width="44" height="22" rx="5"/>
+          <rect class="n host" x="44" y="250" width="24" height="16" rx="3"/>
+          <rect class="n host" x="132" y="250" width="24" height="16" rx="3"/>
+          <rect class="n host" x="244" y="250" width="24" height="16" rx="3"/>
+          <rect class="n host" x="332" y="250" width="24" height="16" rx="3"/>
+          <g class="lbl">
+            <text x="228" y="38">Router</text>
+            <text x="236" y="125">Core switch</text>
+            <text x="100" y="178">VLAN 10</text>
+            <text x="300" y="178">VLAN 20</text>
+          </g>
+          <circle class="pkt" r="4"><animateMotion dur="3.2s" repeatCount="indefinite" path="M200 48V120L100 192L56 252"/></circle>
+          <circle class="pkt" r="4"><animateMotion dur="3.8s" begin="1.4s" repeatCount="indefinite" path="M144 252L100 192L200 120L300 192L344 252"/></circle>
+        </svg>
+        <figcaption>Illustration of the kind of topology I'm studying. Not a completed project.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="wrap">
+      <h2>About me</h2>
+      <div class="two-col">
+        <div class="prose">
+          <p>I'm an IT student in Accra, Ghana, with a GPA of 3.80/4.0 in Level 100. I'm now in Level 200, Semester 1.</p>
+          <p>My career direction is network engineering and administration. I'm studying for the Cisco CCNA, and my CV lists coursework across switching, routing, IP services and network security.</p>
+          <p>Outside networking, I led a team that built an AI-powered student assistant and I wrote a Python mobile money simulator. I speak French fluently and work well in teams.</p>
+        </div>
+        <dl class="facts">
+          <div><dt>Studying</dt><dd>B.Sc. Information Technology</dd></div>
+          <div><dt>University</dt><dd>Academic City University</dd></div>
+          <div><dt>Certification</dt><dd>CCNA (in progress)</dd></div>
+          <div><dt>Languages</dt><dd>English, French (fluent)</dd></div>
+          <div><dt>Location</dt><dd>Accra, Ghana</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="wrap">
+      <h2>Technical skills</h2>
+      <p class="note">Network topics below are what I have studied for the CCNA. I list the tools I use separately, and I'm adding hands-on labs (see Planned Lab Projects).</p>
+
+      <div class="grid">
+        <article class="card">
+          <h3>Programming and tools</h3>
+          <ul class="chips"><li>Python</li><li>C</li><li>Microsoft Excel</li><li>Cisco Packet Tracer</li><li>GitHub</li></ul>
+        </article>
+        <article class="card">
+          <h3>Network fundamentals</h3>
+          <ul class="chips"><li>OSI and TCP/IP models</li><li>Ethernet</li><li>Switching and routing concepts</li><li>IPv4 and IPv6 addressing</li><li>Subnetting (VLSM)</li><li>Interface troubleshooting</li><li>Wireless architectures</li></ul>
+        </article>
+        <article class="card">
+          <h3>Network access</h3>
+          <ul class="chips"><li>VLANs and 802.1Q trunking</li><li>DTP</li><li>Inter-VLAN routing</li><li>CDP/LLDP</li><li>EtherChannel (LACP)</li><li>Spanning Tree (RSTP/PVST+)</li><li>Cisco wireless (WLC, AP modes, WLANs)</li></ul>
+        </article>
+        <article class="card">
+          <h3>IP connectivity</h3>
+          <ul class="chips"><li>Routing table analysis</li><li>Static and default routing</li><li>OSPFv2 (single-area)</li><li>HSRP/VRRP</li><li>Administrative distance and metrics</li></ul>
+        </article>
+        <article class="card">
+          <h3>IP services</h3>
+          <ul class="chips"><li>NAT/PAT</li><li>DHCP</li><li>DNS</li><li>NTP</li><li>SNMP</li><li>Syslog</li><li>QoS</li><li>SSH remote access</li><li>TFTP/FTP</li></ul>
+        </article>
+        <article class="card">
+          <h3>Security fundamentals</h3>
+          <ul class="chips"><li>Threats and attack mitigation</li><li>ACLs</li><li>Port security</li><li>DHCP snooping</li><li>Dynamic ARP Inspection</li><li>AAA (TACACS+/RADIUS)</li><li>VPNs</li><li>Device hardening</li><li>WPA2/WPA3</li></ul>
+        </article>
+        <article class="card wide">
+          <h3>Professional skills</h3>
+          <ul class="chips"><li>Problem-solving</li><li>Attention to detail</li><li>Communication</li><li>Teamwork</li><li>Time management</li><li>French (fluent)</li></ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="wrap">
+      <h2>Projects</h2>
+
+      <h3 class="sub">Completed projects</h3>
+      <div class="grid">
+        <article class="card project">
+          <h4>Student Assistant AI</h4>
+          <dl>
+            <dt>Objective</dt><dd>Build an AI-powered platform that helps students register, enrol in courses and get academic advice.</dd>
+            <dt>My role</dt><dd>Project Coordinator and Team Lead, Academic City University.</dd>
+            <dt>Implementation</dt><dd>Led a multi-disciplinary team and coordinated the front-end, back-end, database and cloud hosting workstreams. Managed collaboration and version control with GitHub, and delivered a working system.</dd>
+            <dt>Demonstrates</dt><dd>Team leadership, project coordination and version control in a multi-part system.</dd>
+          </dl>
+          <ul class="chips small"><li>GitHub</li><li>Cloud hosting</li><li>Databases</li></ul>
+        </article>
+
+        <article class="card project">
+          <h4>Basic Mobile Money Menu</h4>
+          <dl>
+            <dt>Objective</dt><dd>Simulate real-world mobile money transactions in a command-line application.</dd>
+            <dt>My role</dt><dd>Python Developer.</dd>
+            <dt>Implementation</dt><dd>Built balance checking, fund transfers and bill payment using core Python constructs, with clear prompts, error handling and simple navigation.</dd>
+            <dt>Demonstrates</dt><dd>Python fundamentals, input validation and user-friendly design.</dd>
+          </dl>
+          <ul class="chips small"><li>Python</li><li>CLI</li></ul>
+        </article>
+      </div>
+      <p class="note">These two projects are software projects. My CV does not yet list a completed networking lab, so my networking work is shown below as planned.</p>
+
+      <h3 class="sub">Planned lab projects <span class="tag">Planned, not completed</span></h3>
+      <div class="grid">
+        <article class="card planned"><h4>VLANs and inter-VLAN routing</h4><p>Segment a small network into VLANs, configure trunks and route between them in Packet Tracer.</p></article>
+        <article class="card planned"><h4>DHCP configuration and troubleshooting</h4><p>Configure DHCP for several VLANs and document how to diagnose common failures.</p></article>
+        <article class="card planned"><h4>OSPF single-area routing</h4><p>Connect multiple routers with OSPFv2 and verify the routing tables.</p></article>
+        <article class="card planned"><h4>ACLs and network security</h4><p>Restrict traffic between network segments using access control lists, then test the rules.</p></article>
+        <article class="card planned"><h4>SSH device management</h4><p>Harden switches and routers by replacing Telnet with SSH remote access.</p></article>
+        <article class="card planned"><h4>Troubleshooting and documentation</h4><p>Break and fix a lab network, and write up the topology, addressing table and fixes.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATION -->
+  <section id="learning">
+    <div class="wrap">
+      <h2>Certification and learning</h2>
+      <div class="cert">
+        <div>
+          <h3>CCNA: Cisco Certified Network Associate</h3>
+          <p class="status">In progress. Not yet certified.</p>
+        </div>
+        <ol class="path" aria-label="CCNA topic areas studied">
+          <li class="done">Network fundamentals</li>
+          <li class="done">Network access</li>
+          <li class="done">IP connectivity</li>
+          <li class="done">IP services</li>
+          <li class="done">Security fundamentals</li>
+          <li>Exam preparation (next step)</li>
+        </ol>
+      </div>
+      <p class="note">Filled markers are the CCNA topic areas I list as studied in my CV. They are not exam results.</p>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="wrap">
+      <h2>Education and awards</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Academic City University</h3>
+          <p class="muted">Accra, Ghana · Currently enrolled</p>
+          <p>B.Sc. Information Technology, since September 2025.</p>
+          <p>GPA 3.80/4.0 (Level 100). Now in Level 200, Semester 1.</p>
+        </article>
+        <article class="card">
+          <h3>Trinity School College</h3>
+          <p class="muted">Cotonou, Benin</p>
+          <p>Secondary education.</p>
+          <p><strong>Award:</strong> Best in Chemistry.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="wrap">
+      <h2>Contact</h2>
+      <div class="contact">
+        <p>I'm looking for opportunities to learn and contribute in networking and IT. Get in touch by email or LinkedIn.</p>
+        <ul>
+          <li><a class="btn primary" href="mailto:datogiovanne2@gmail.com">datogiovanne2@gmail.com</a></li>
+          <li><a class="btn" href="https://www.linkedin.com/in/dato-giovanni" target="_blank" rel="noopener noreferrer">LinkedIn profile</a></li>
+          <li><a class="btn" href="assets/CV_Dato_Giovanni.pdf" download>Download CV</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot">
+    <p>© <span id="year">2026</span> Dato Giovanni. Accra, Ghana.</p>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
